@@ -10,6 +10,7 @@ package 'git' do
   action :install
 end
 
+package 'unzip'
 
 file '/etc/motd' do
   content 'This server belongs to K-Gohil Inc. Any un-authorise access to this box will be considered as a violation of Cyber Laws could result into legal actions.'
